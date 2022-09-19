@@ -1,0 +1,144 @@
+#root {
+
+  margin: 0 auto;
+ 
+  text-align: center;
+  box-sizing: border-box;
+  
+}
+/*
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.read-the-docs {
+  color: #888;
+}
+*/
+
+.form-ctn {
+  border: 2px solid #7d868a;
+  padding: 20px;
+  width: 600px;
+  margin: 40px;
+  border-radius: px;
+  margin: 0 auto;
+  font-size: larger;
+  background-color:#98eb4baa;
+  color: #105a0d;
+
+}
+
+.form-item {
+  text-align: left;
+  padding: 10px;
+}
+
+ul{
+  text-decoration: none;
+ }
+
+li{
+ 
+  list-style-type: none;
+}
+
+
+.list-ctn{
+ 
+  min-width: 1280px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 3px;
+  margin: 50px;
+
+
+}
+
+.card {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #33bdef;
+  margin: 10px;
+  background-color: #ffffff77;
+  border-radius: 8px;
+  text-align: left;
+  color: #105a0d;
+}
+
+.column1{
+min-width: 80px;
+margin-right: 10px;
+}
+
+.column1 button{
+  min-width: 80px;
+  margin: 0;
+}
+ 
+.form-item label {
+  width: 100px;
+  font-size: 700;
+}
+
+
+
+button {
+  padding: 1px;
+  margin:10px;
+  font-size:15px;
+  font-family:Arial;
+  width:80px;
+  border-width:1px;
+  color:#ffffff;
+  border-color:rgba(49, 163, 238, 1);
+  font-weight:bold;
+  border-top-left-radius:6px;
+  border-top-right-radius:6px;
+  border-bottom-left-radius:6px;
+  border-bottom-right-radius:6px;
+  box-shadow: 0px 1px 0px 0px #f0f7fa;
+  text-shadow: 0px -1px 0px #5b6178;
+  background:linear-gradient(#33bdef, #019ad2);
+}
+
+button:hover {
+
+  background: linear-gradient(#019ad2, #33bdef);
+}
+
+
+.form-item label {
+ width: 200px;
+ display: block;
+}
+
+h1{
+  color: #019ad2;
+}
