@@ -16,8 +16,8 @@ const UsersForm = ({getUsers, userSelected,  deselectUser}) => {
 
 
     const submit = (data) =>{
-        alert ("Entró al submit");
-        console.log (`UsersForm. Linea20: ${data}`);
+        //alert ("Entró al submit");
+       // console.log (`UsersForm. Linea20: ${data}`);
         if(userSelected)
         {  axios.put(`https://users-crud1.herokuapp.com/users/${userSelected.id}/`, data)//El data es el body
                     .then(()=>getUsers())  

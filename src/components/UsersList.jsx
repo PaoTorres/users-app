@@ -5,7 +5,7 @@ import '../App.css'
 const UsersList = ({getUsers, users, selectUser}) => {
 
 const deleteUser = (id) =>{
-    alert(`Entro a eliminar ${id}`);
+   // alert(`Entro a eliminar ${id}`);
     axios.delete(`https://users-crud1.herokuapp.com/users/${id}/`)
          .then(() =>getUsers());
 }         
